@@ -1,0 +1,9 @@
+INSERT INTO `ecitation`.`HAIR` (`id`, `Code`,`Description`) VALUES (1,'BLK-','Black');
+INSERT INTO `ecitation`.`HAIR` (`id`, `Code`,`Description`) VALUES (2,'BRO','Brown');
+INSERT INTO `ecitation`.`HAIR` (`id`, `Code`,`Description`) VALUES (3,'BLN','Blonde');
+INSERT INTO `ecitation`.`HAIR` (`id`, `Code`,`Description`) VALUES (4,'RED','Red');
+INSERT INTO `ecitation`.`HAIR` (`id`, `Code`,`Description`) VALUES (5,'WHI','White');
+INSERT INTO `ecitation`.`HAIR` (`id`, `Code`,`Description`) VALUES (6,'GRY','Gray');
+INSERT INTO `ecitation`.`HAIR` (`id`, `Code`,`Description`) VALUES (7,'BAL','Bald');
+INSERT INTO `ecitation`.`HAIR` (`id`, `Code`,`Description`) VALUES (8,'SDY','Sandy');
+INSERT INTO `ecitation`.`HAIR` (`id`, `Code`,`Description`) VALUES (9,'UNK','Unknown');

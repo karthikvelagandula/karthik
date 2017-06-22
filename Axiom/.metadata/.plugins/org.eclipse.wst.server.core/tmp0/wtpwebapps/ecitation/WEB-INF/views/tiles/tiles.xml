@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+
+<tiles-definitions> 
+
+<!-- Login Definition -->
+   <definition name="login-definition" 
+       template="/WEB-INF/views/tiles/layouts/loginLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="body" value="" />  
+   </definition>
+   
+   <definition name="consumer-login-definition" 
+       template="/WEB-INF/views/tiles/layouts/consumerLoginLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="body" value="" />  
+   </definition>  
+   <definition name="base-definition" 
+       template="/WEB-INF/views/tiles/layouts/defaultLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/defaultHeader.jsp" />  
+       <put-attribute name="menu" value="/WEB-INF/views/tiles/template/defaultMenu.jsp" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/defaultFooter.jsp" />  
+   </definition>  
+   <!-- Citation Definition -->
+   <definition name="citation-definition" 
+       template="/WEB-INF/views/tiles/layouts/citationLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/citationHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>    
+   <!-- Suspends Definition -->
+   <definition name="suspends-definition" 
+       template="/WEB-INF/views/tiles/layouts/citationLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/citationHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+   <!-- Add Suspends Definition -->
+   <definition name="suspendsAdd-definition" 
+       template="/WEB-INF/views/tiles/layouts/citationLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/citationListHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+    <!-- Notices Definition -->
+   <definition name="notices-definition" 
+       template="/WEB-INF/views/tiles/layouts/citationLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/citationHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+   <!-- Payments Definition -->
+   <definition name="paymentsentry-definition" 
+       template="/WEB-INF/views/tiles/layouts/citationLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/citationListHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+   
+   <!-- Exclusions Definition -->
+   <definition name="exclusion-definition" 
+       template="/WEB-INF/views/tiles/layouts/exclusionLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/citationHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+   
+   <!-- Consumer Definition -->
+   <definition name="consumer-definition" 
+       template="/WEB-INF/views/tiles/layouts/citationLayout.jsp"> 
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/consumerHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+    <!-- Consumer Definition -->
+   <definition name="consumer-payment-definition" 
+       template="/WEB-INF/views/tiles/layouts/consumerPaymentLayout.jsp"> 
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/consumerPaymentHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+   <!-- Penalty Definition -->
+   <definition name="penalty-definition" 
+       template="/WEB-INF/views/tiles/layouts/penaltyLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/penaltyHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/penaltyFooter.jsp" />  
+   </definition>
+   <!--Edit/Add Penalty Definition -->
+   <definition name="penaltyAdd-definition" 
+       template="/WEB-INF/views/tiles/layouts/penaltyLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/penaltyAddHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/penaltyFooter.jsp" />  
+   </definition>
+   <!-- Citation List Definition -->
+   <definition name="citationList-definition" 
+       template="/WEB-INF/views/tiles/layouts/citationLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/citationListHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+   <!-- Home Page -->
+   <definition name="home" extends="base-definition">  
+       <put-attribute name="title" value="Welcome" />  
+       <put-attribute name="body" value="/WEB-INF/views/pages/home.jsp" />  
+   </definition>  
+
+   <!-- Product Page -->
+   <definition name="products" extends="base-definition">  
+       <put-attribute name="title" value="Products" />  
+       <put-attribute name="body" value="/WEB-INF/views/pages/products.jsp" />  
+   </definition>  
+      
+   <!-- Contact-us Page -->
+   <definition name="contactus" extends="base-definition">  
+       <put-attribute name="title" value="Contact Us" />  
+       <put-attribute name="body" value="/WEB-INF/views/pages/contactus.jsp" />  
+   </definition>
+   
+   <!-- Login Page -->  
+  <definition name="login" extends="login-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/login.jsp" />
+   </definition>
+    
+    <!-- Citation Entry Page -->
+    <definition name="citationentry" extends="citationList-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/citationentry.jsp" />
+    </definition>
+	<definition name="citationview" extends="citation-definition">
+		<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/citationresultview.jsp" />
+	    	</definition>
+    	</put-attribute>
+    </definition>
+        <!-- Citation Details Page -->
+    <definition name="citationlist" extends="citationList-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/citationlist.jsp" />
+    </definition>
+    <definition name="citationdetails" extends="citation-definition"> 
+    	<put-attribute name="body">
+    		<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+      			<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+      			<put-attribute name="content" value="/WEB-INF/views/pages/citationdetails.jsp" />       			
+    		</definition>
+  	   </put-attribute>  
+    </definition>
+    <definition name="citationparkingdetails" extends="citation-definition">
+    	<put-attribute name="body">
+    		<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+      			<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+      			<put-attribute name="content" value="/WEB-INF/views/pages/citationparkingdetails.jsp" />       			
+    		</definition>
+  	   </put-attribute>        
+    </definition>
+       
+    
+    <!-- attachments Page -->
+    <definition name="attchments" extends="suspends-definition">
+    	<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/admin/attachments.jsp" />
+	    	</definition>
+    	</put-attribute>
+    </definition>
+    
+    <definition name="fileupload" extends="suspends-definition">
+    	<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/admin/fileupload.jsp" />
+	    	</definition>
+    	</put-attribute>
+        
+    </definition>
+    
+     <definition name="showPDFImages" extends="suspends-definition">
+     	<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/admin/convertedImages.jsp" />
+	    	</definition>
+    	</put-attribute>
+    </definition>
+    
+    <!-- Suspend Page -->
+    <definition name="suspends" extends="suspendsAdd-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/suspendsentry.jsp" />
+    </definition>
+    
+    <!-- Suspend Page -->
+    <definition name="payments" extends="paymentsentry-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/paymentdetailsentry.jsp" />
+    </definition>
+    
+    <!-- Exclusion Page -->
+    <definition name="exclusion" extends="exclusion-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/exclusion.jsp" />
+    </definition>
+    
+    <definition name="transit" extends="exclusion-definition">
+        <put-attribute name="body" value="/static/transit/story_html5.html" />
+    </definition>
+    
+    <definition name="consumerlogin" extends="consumer-login-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/consumerloginnew.jsp" />
+    </definition>
+    
+    <definition name="consumerloginspanish" extends="consumer-login-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/consumerloginspanish.jsp" />
+    </definition>
+    
+    <definition name="consumerdetails" extends="consumer-login-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/consumerdetails.jsp" />
+    </definition>
+    
+    <definition name="consumerspanishdetails" extends="consumer-login-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/consumerspanishdetails.jsp" />
+    </definition>
+    
+    <definition name="consumercorrespondance" extends="consumer-login-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/consumercorrespondance.jsp" />
+    </definition>
+   <definition name="payment-definition"  template="/WEB-INF/views/tiles/layouts/paymentLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/citationListHeader.jsp" />  
+       <put-attribute name="menu" value="/WEB-INF/views/tiles/template/citationSideBar.jsp" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+   <!--  payment -->      
+     <definition name="payment" extends="payment-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/payment.jsp" />
+    </definition>   
+  <!-- payment --> 
+  
+ <definition name="consumerPaymentPrint" extends="consumer-payment-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/consumerpaymentprint.jsp" />
+ </definition>
+ 
+  <!--  notices -->      
+     <definition name="notices" extends="payment-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/noticesentry.jsp" />
+    </definition>   
+  <!-- notices --> 
+  <!--  penalty -->      
+     <definition name="penalty" extends="penalty-definition">
+     	<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/admin/penalty.jsp" />
+	    	</definition>
+    	</put-attribute>
+    </definition>   
+  <!-- penalty --> 
+  <!-- Citation parking view -->
+  <definition name="citationparkingview" extends="citation-definition">
+  		<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/citationparkingview.jsp" /> 
+	    	</definition>
+    	</put-attribute>
+    </definition>
+  <!-- Citation parking view -->
+  <!--  Penalty -->
+   <definition name="showEditPenaltyDetails" extends="penaltyAdd-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/penaltydetails.jsp" />
+    </definition>
+  <!--  /Penalty -->
+  <!-- consumer payment -->      
+     <definition name="consumerPayment" extends="consumer-payment-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/consumerpayment.jsp" />
+    </definition>   
+  <!-- payment -->  
+  <!--  paymentDetails -->      
+     <definition name="paymentDetails" extends="penalty-definition">
+     	<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/admin/paymentdetails.jsp" />
+	    	</definition>
+    	</put-attribute>
+    </definition>   
+  <!-- paymentDetails -->   
+  <!--  forgotPasswordDetails -->      
+     <definition name="forgotpassword" extends="login-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/forgotpassword.jsp" />
+    </definition>   
+  <!-- forgotPasswordDetails -->   
+   <!--  suspendDetails -->      
+     <definition name="suspendDetails" extends="penalty-definition">
+     	<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/admin/suspenddetails.jsp" />
+	    	</definition>
+    	</put-attribute>
+    </definition>   
+  <!-- suspendDetails -->  
+   <!-- Citation Info Page -->
+    <definition name="citationInfo" extends="citationList-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/citationinfo.jsp" />
+    </definition> 
+    <!-- Citation Info Page -->    
+    <!--  NoticeDetails -->      
+     <definition name="noticeDetails" extends="penalty-definition">
+     	<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/admin/noticedetails.jsp" /> 
+	    	</definition>
+    	</put-attribute>
+    </definition>   
+  <!-- NoticeDetails -->
+<!--  Correspondence -->      
+     <definition name="correspondenceDetails" extends="penalty-definition">
+     	<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/admin/correspondencedetails.jsp" /> 
+	    	</definition>
+    	</put-attribute>
+    </definition>  
+    
+    <definition name="showEditCorrespondence" extends="penaltyAdd-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/correspondence.jsp" />
+    </definition>  
+  <!-- Correspondence -->
+  <!-- Forgot Password Page -->  
+  <definition name="forgotpassword" extends="login-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/forgotpassword.jsp" />
+    </definition>
+  <!--  Hearing -->      
+     <definition name="hearingDetails" extends="penalty-definition">
+     	<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/admin/hearingdetails.jsp" />
+	    	</definition>
+    	</put-attribute>
+    </definition>   
+	<definition name="hearing" extends="citationList-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/hearing.jsp" />
+    </definition>
+    <definition name="parkinghistory" extends="citation-definition">
+       <put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/parkingcitationhistory.jsp" /> 
+	    	</definition>
+    	</put-attribute>
+   	</definition>
+   	<definition name="transithistory" extends="citation-definition">
+   		<put-attribute name="body">
+	    	<definition template="/WEB-INF/views/tiles/layouts/sidemenuLayout.jsp">
+	      		<put-attribute name="sidemenu" value="/WEB-INF/views/tiles/template/sidemenu.jsp" />
+	      		<put-attribute name="content" value="/WEB-INF/views/pages/transitcitationhistory.jsp" />      			
+	    	</definition>
+    	</put-attribute>
+   	</definition>
+  <!-- Hearing -->
+  <!-- Manage Letter Definition -->
+   <definition name="letter-definition" 
+       template="/WEB-INF/views/tiles/layouts/lettersLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/letterHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+
+   <definition name="letterslogin" extends="login-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/letters/letterslogin.jsp" />
+    </definition>
+    
+    <definition name="letters" extends="letter-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/letters/letters.jsp" />
+    </definition>
+    <definition name="printPDFImages"  template="/WEB-INF/views/pages/admin/printPdfPages.jsp"></definition>
+    <definition name="printConvertedPDFPages"  template="/WEB-INF/views/pages/admin/printDocument.jsp"></definition>
+    <definition name="uploadrecords" extends="citationList-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/uploadrecords.jsp" />
+    </definition>
+    <definition name="reports" extends="citationList-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/reports/reports.jsp" />
+    </definition>    
+   <!-- Initial Review Definition -->
+    <definition name="initialReview-definition" 
+       template="/WEB-INF/views/tiles/layouts/citationLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/citationListHeader.jsp" />  
+       <put-attribute name="menu" value="" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/citationFooter.jsp" />  
+   </definition>
+   <definition name="initialReview" extends="initialReview-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/ireview/initialreview.jsp" />
+    </definition>    
+    <!--  Refund -->      
+    <definition name="refunds" extends="payment-definition">
+       <put-attribute name="body" value="/WEB-INF/views/pages/admin/refund.jsp" />
+   </definition>
+   <definition name="showReviewImages" extends="login-definition">
+        <put-attribute name="body" value="/WEB-INF/views/pages/admin/convertedImages.jsp" />
+   </definition>
+ <!-- Refund --> 
+</tiles-definitions>

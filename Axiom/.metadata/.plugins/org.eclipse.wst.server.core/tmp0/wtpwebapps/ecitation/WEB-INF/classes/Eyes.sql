@@ -1,0 +1,9 @@
+INSERT INTO `ecitation`.`EYES` (`id`, `Code`,`Description`) VALUES (1,'BLK','Black');
+INSERT INTO `ecitation`.`EYES` (`id`, `Code`,`Description`) VALUES (2,'BLU','Blue');
+INSERT INTO `ecitation`.`EYES` (`id`, `Code`,`Description`) VALUES (3,'BRO','Brown');
+INSERT INTO `ecitation`.`EYES` (`id`, `Code`,`Description`) VALUES (4,'DIC','Dichromatic');
+INSERT INTO `ecitation`.`EYES` (`id`, `Code`,`Description`) VALUES (5,'GRY','Gray');
+INSERT INTO `ecitation`.`EYES` (`id`, `Code`,`Description`) VALUES (6,'GRN','Green');
+INSERT INTO `ecitation`.`EYES` (`id`, `Code`,`Description`) VALUES (7,'HAZ','Hazel');
+INSERT INTO `ecitation`.`EYES` (`id`, `Code`,`Description`) VALUES (8,'PNK','Pink');
+INSERT INTO `ecitation`.`EYES` (`id`, `Code`,`Description`) VALUES (9,'UNK','Unknown');
