@@ -1,0 +1,202 @@
+
+Maven
+
+Agile
+
+Artifactory
+Tomcat/Weblogic
+
+Project Management Tools --
+JIRA
+
+Source Code Management Tools:
+GIT/SVN
+
+Review Process:
+
+Unit Testing :
+Juit
+Mackito
+
+Static code analysis:
+Sonar
+Findbugs
+Checkstyle
+
+SDLC -----
+	Bug lifecyle
+	qa - 
+	
+Maven :
+	JAR
+	WAR
+	EAR
+	
+	
+Web Application
+Standalone Application
+
+Process ---
+
+Agile  - Scrum 
+-----------------------------------------------------------
+
+1.Project 
+2.DB file 
+
+
+------------------------------------
+
+1. Create a calculator
+	Add 
+	
+2. Unit test cases .
+
+
+Discussion about Classpath/Environment variables.
+
+Junit:
+1.Avoid main method
+2.Assertions 
+3.Reports.
+
+Annotations --- 
+	@Xyz
+@Test
+	1.Add junit library in buildpath
+	2.add @Test above to your method
+	3.org.junit.Test
+	4.org.junit.Assert
+	
+	----------------------------------------------------
+	Servlet Project:
+	1.We can write unit test cases for DAO layer
+	2.Compare the expected output with actual output	
+		Assert  -- 	assertEquals
+					assertNotEquals
+					assertNotNull
+					assertNull
+					assertTrue
+	3.Annotations :
+		-- 	@Test
+			@BeforeClass
+			@AfterClass
+	
+-----------------------------------------
+Custom Exceptions :
+	
+Debugging -- 
+	logs 
+	Run as debug
+			Single statement execution - step over - F6
+			Till end of execution or	, Resume  --- F8
+			Till next break point
+			Into the method ----		Step Into - F5
+------------------------------------------------
+CLASSPATH
+PATH
+JAVA_HOME
+
+1.Tomcat 
+2.Set JAVA_HOME --environment variable 
+3.Copy your war file to tomcat_home/webapps .
+4.goto tomcat_home/bin folder - startup.bat	
+5.localhost:8080/app_name/login.jsp
+
+----------------------
+Port change
+Hard deployment
+soft deployment
+
+
+Junit
+Debugging
+Tomcat
+	Port change:
+			conf/server.xml --> Connector - port (protocol -http)
+	Tomcat Users:
+			conf/tomcat-users.xml	
+				user - username,password,roles -->manager-gui, admin-gui, tomcat
+	Soft Deployment:
+			Manger app --> Deploy ... Undeploy .
+			
+	
+-----------------------------------------------------------------
+MAVEN :
+-----------------------------------------------------------------
+		Build tool --  maven 
+		Build artefacts --> jar , war , ear ...
+----------------------------------------------------------------
+
+1.Build process automation.
+
+	DEV 		==== QA 		===== Release 
+	SNAPSHOT		QA				  GA 
+	
+	weplay 
+	
+	weplay-0.0.1-snapshot.war
+	weplay-0.0.2-snapshot.war
+	weplay-0.0.3-snapshot.war
+	
+			weplay-0.0.1-QA.war
+	weplay-0.0.4-snapshot.war
+	weplay-0.0.5-snapshot.war
+			weplay-0.0.2-QA.war
+	
+	weplay-0.0.6-snapshot.war
+	
+			weplay-0.0.25-QA.war
+	
+				 weplay-1.0.0.war or weplay-1.0.0-GA.war
+	
+				weplay-1.0.1.war
+	
+
+
+				xyz-17.1.0
+				xyz-17.1.1
+				xyz-17.2.0
+
+				xyz-18.1.0
+
+	Maven Life cycle :
+		clean
+		default
+		site
+	
+
+     <dependencies>
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>5.1.26</version>
+			</dependency>
+	</dependencies>
+		
+
+Log4j :
+
+			Avoid using syso.
+		Steps to use log4j:
+			1.jar ---- 2.x.x
+			2.Configurations.  - log4j2.xml
+			3.Code in your class.
+			import org.apache.logging.log4j.*
+					public static Logger log = LogManager.getLogger(StudentDAO.class);
+				
+				log.trace();
+				log.debug();
+				log.info();
+				log.warn();
+				log.error();
+				log.fatal();
+				
+				
+				
+				
+				
+				
+				
+				
+				
